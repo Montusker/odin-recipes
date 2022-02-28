@@ -1,7 +1,24 @@
-h1 {
-    background-color: blue;
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2px;
+    text-align: center;
+}
+#header{
+    background-color: red;
+    color: blanchedalmond;
+
+}
+#ingredients {
+    color: darkcyan;
+}
+#ingredients h2 {
+    background-color: aqua;
+    color: darksalmon;
 }
 
-p {
-    color: blue;
+
+li {
+    text-align: left;
 }
